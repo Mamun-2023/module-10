@@ -40,6 +40,27 @@
     transform: scale(.6) rotate(45deg) translate(-240px);
 
 }
+
+.practice {
+    transform: ;
+}
 .inner:hover{
     transform: scale(.9) rotate(45deg) translate(300px);
 }
+.practice {
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    margin-bottom: 30px;
+}
+
+.task {
+    height: 150px;
+    width: 150px;
+    background-color: wheat;
+    transform: scale(.5) rotate(45deg) translate(200px);
+}
+.task:hover{
+    transform: scale(.9) rotate(-70deg);
+}
+
