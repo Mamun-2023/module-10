@@ -1,4 +1,6 @@
-
+*{
+    margin-left: 30px;
+}
 .box {
     width: 300px;
     height: 300px;
@@ -14,4 +16,30 @@
     text-overflow: ellipsis;
     border: 5px solid silver;
     margin-top: 20px;
+}
+
+/* transform related styles */
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid royalblue;
+    margin-bottom: 10px;
+    
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    border: 2px solid lawngreen;
+    background-color: rgb(20, 220, 210);
+    /* transform:scale(1.5); */
+    /* margin-left: 30px; */
+    /* transform: scale(-1.1); */
+    /* transform: scalez(1.8); */
+    /* transform: skew(1.2); */
+
+    transform: scale(.6) rotate(45deg) translate(-240px);
+
+}
+.inner:hover{
+    transform: scale(.9) rotate(45deg) translate(300px);
 }
