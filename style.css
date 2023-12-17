@@ -64,3 +64,23 @@
     transform: scale(.9) rotate(-70deg);
 }
 
+/* transition related styles */
+.transition{
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.transition:hover{
+   
+transform: rotate(90deg)
+scale(.9)
+translate(50px);
+width: 700px;
+
+}
