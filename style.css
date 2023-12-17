@@ -84,3 +84,29 @@ translate(50px);
 width: 700px;
 
 }
+/* bat ball section style */
+.bat-ball{
+    border: 1px solid rgb(20, 220, 210);
+    height: 650px;
+    width:1100px ;
+}
+.bat:hover{
+   transform: rotate(-30deg); 
+  
+}
+.bat{
+    transition: transform 0.1s;
+}
+.ball{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+    left: 500px;
+    bottom: 180px;
+    transition: transform 1s ease-in 0.2s;
+}
+.bat-ball:hover .ball{
+transform: translate(850px);
+}
